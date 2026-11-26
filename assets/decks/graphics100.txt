@@ -1,0 +1,100 @@
+pixel|ˈpɪksl|piksel|пиксель|Each pixel stores one colour.
+resolution|ˌrezəˈluːʃən|ruxsat (ekran aniqligi)|разрешение|The monitor has a resolution of 1920 by 1080.
+raster graphics|ˈræstə ˈɡræfɪks|rastr grafika|растровая графика|Photos are usually stored as raster graphics.
+vector graphics|ˈvektə ˈɡræfɪks|vektor grafika|векторная графика|Logos are often made with vector graphics.
+rendering|ˈrendərɪŋ|renderlash (tasvirni hosil qilish)|рендеринг|Rendering a complex scene can take hours.
+rasterization|ˌræstəraɪˈzeɪʃən|rastrlash|растеризация|Rasterization converts triangles into pixels.
+ray tracing|reɪ ˈtreɪsɪŋ|nurlarni kuzatish|трассировка лучей|Ray tracing produces realistic reflections.
+shader|ˈʃeɪdə|sheyder|шейдер|The fragment shader computes the pixel colour.
+vertex|ˈvɜːteks|uch (cho'qqi)|вершина|A triangle has three vertices.
+polygon|ˈpɒlɪɡɒn|ko'pburchak|многоугольник, полигон|The model consists of 10,000 polygons.
+polygon mesh|ˈpɒlɪɡɒn meʃ|ko'pburchakli to'r|полигональная сетка|A polygon mesh describes the surface of a 3D object.
+edge|edʒ|qirra|ребро, край|Each edge connects two vertices.
+normal vector|ˈnɔːml ˈvektə|normal vektor|вектор нормали|The normal vector is used for lighting.
+texture|ˈtekstʃə|tekstura|текстура|A wood texture was applied to the table.
+texture mapping|ˈtekstʃə ˈmæpɪŋ|teksturani joylashtirish|наложение текстуры|Texture mapping adds detail without extra polygons.
+UV coordinates|ˌjuːˈviː kəʊˈɔːdɪnəts|UV koordinatalar|UV-координаты|UV coordinates tell where the texture goes.
+anti-aliasing|ˌæntiˈeɪliəsɪŋ|zinapoyasimonlikni yo'qotish|сглаживание|Anti-aliasing removes jagged edges.
+aliasing|ˈeɪliəsɪŋ|zinapoyasimon buzilish|алиасинг, ступенчатость|Aliasing makes diagonal lines look jagged.
+z-buffer|ˈzed ˌbʌfə|chuqurlik buferi (z-bufer)|z-буфер|The z-buffer stores the depth of each pixel.
+depth test|depθ test|chuqurlik testi|тест глубины|The depth test hides objects behind others.
+frame buffer|freɪm ˈbʌfə|kadr buferi|кадровый буфер|The image is drawn into the frame buffer.
+frame rate|freɪm reɪt|kadr chastotasi|частота кадров|The game runs at a frame rate of 60 FPS.
+graphics pipeline|ˈɡræfɪks ˈpaɪplaɪn|grafik konveyer|графический конвейер|The graphics pipeline has several stages.
+GPU|ˌdʒiː piː ˈjuː|grafik protsessor|графический процессор|The GPU performs millions of calculations in parallel.
+transformation|ˌtrænsfəˈmeɪʃən|almashtirish (transformatsiya)|преобразование|A transformation changes the position of an object.
+translation|trænzˈleɪʃən|parallel ko'chirish|перенос|Translation moves an object without rotating it.
+rotation|rəʊˈteɪʃən|burish|поворот|Rotation is described by an angle and an axis.
+scaling|ˈskeɪlɪŋ|masshtablash|масштабирование|Scaling makes the model twice as big.
+matrix|ˈmeɪtrɪks|matritsa|матрица|A 4×4 matrix combines several transformations.
+homogeneous coordinates|ˌhɒməˈdʒiːniəs kəʊˈɔːdɪnəts|bir jinsli koordinatalar|однородные координаты|Homogeneous coordinates allow translation as a matrix.
+projection|prəˈdʒekʃən|proyeksiya|проекция|Perspective projection makes far objects smaller.
+perspective|pəˈspektɪv|perspektiva|перспектива|The drawing uses one-point perspective.
+orthographic projection|ˌɔːθəˈɡræfɪk prəˈdʒekʃən|ortografik proyeksiya|ортографическая проекция|Engineers use orthographic projection in technical drawings.
+viewport|ˈvjuːpɔːt|ko'rish oynasi|область просмотра|The viewport defines where the image appears on screen.
+clipping|ˈklɪpɪŋ|qirqish|отсечение|Clipping removes parts outside the view.
+field of view|fiːld əv vjuː|ko'rish burchagi|поле зрения|A wide field of view shows more of the scene.
+lighting|ˈlaɪtɪŋ|yoritish|освещение|Good lighting makes the scene realistic.
+ambient light|ˈæmbiənt laɪt|tarqoq yorug'lik|фоновое освещение|Ambient light brightens the whole scene.
+diffuse reflection|dɪˈfjuːs rɪˈflekʃən|diffuz qaytish|диффузное отражение|Diffuse reflection depends on the angle of light.
+specular highlight|ˈspekjələ ˈhaɪlaɪt|yaltiroq nuqta|зеркальный блик|Shiny metal has a strong specular highlight.
+shading|ˈʃeɪdɪŋ|soyalash (tuslash)|затенение|Smooth shading hides the polygon edges.
+Phong shading|fɒŋ ˈʃeɪdɪŋ|Fong usulida tuslash|затенение по Фонгу|Phong shading interpolates normals across a polygon.
+Gouraud shading|ɡʊˈrəʊ ˈʃeɪdɪŋ|Guro usulida tuslash|затенение по Гуро|Gouraud shading interpolates colours between vertices.
+shadow|ˈʃædəʊ|soya|тень|The shadow falls behind the object.
+reflection|rɪˈflekʃən|aks etish|отражение|The lake shows a reflection of the trees.
+refraction|rɪˈfrækʃən|sinish|преломление|Refraction bends light in water.
+transparency|trænsˈpærənsi|shaffoflik|прозрачность|Glass needs transparency in the renderer.
+alpha channel|ˈælfə ˈtʃænl|alfa kanal|альфа-канал|The alpha channel stores transparency.
+colour model|ˈkʌlə ˈmɒdl|rang modeli|цветовая модель|RGB is an additive colour model.
+RGB|ˌɑː dʒiː ˈbiː|RGB (qizil, yashil, ko'k)|RGB (красный, зелёный, синий)|Screens display colours using RGB.
+CMYK|ˌsiː em waɪ ˈkeɪ|CMYK (bosma rang modeli)|CMYK (модель для печати)|Printers use the CMYK model.
+HSV|ˌeɪtʃ es ˈviː|HSV (ton, to'yinganlik, yorqinlik)|HSV (тон, насыщенность, яркость)|HSV is convenient for choosing colours.
+hue|hjuː|rang toni|оттенок, цветовой тон|Change the hue to make it more blue.
+saturation|ˌsætʃəˈreɪʃən|to'yinganlik|насыщенность|Low saturation makes colours look grey.
+brightness|ˈbraɪtnəs|yorqinlik|яркость|Increase the brightness of the photo.
+contrast|ˈkɒntrɑːst|kontrast|контраст|High contrast makes text easy to read.
+gamma correction|ˈɡæmə kəˈrekʃən|gamma tuzatish|гамма-коррекция|Gamma correction adjusts image brightness for displays.
+colour depth|ˈkʌlə depθ|rang chuqurligi|глубина цвета|A colour depth of 24 bits gives 16.7 million colours.
+bitmap|ˈbɪtmæp|bitli xarita (rastr tasvir)|растровое изображение|A bitmap stores the colour of every pixel.
+image compression|ˈɪmɪdʒ kəmˈpreʃən|tasvirni siqish|сжатие изображений|JPEG uses lossy image compression.
+lossless|ˈlɒsləs|yo'qotishsiz|без потерь|PNG is a lossless format.
+interpolation|ɪnˌtɜːpəˈleɪʃən|interpolyatsiya|интерполяция|Bilinear interpolation smooths a scaled image.
+Bezier curve|ˈbeziˌeɪ kɜːv|Bezye egri chizig'i|кривая Безье|A Bezier curve is defined by control points.
+control point|kənˈtrəʊl pɔɪnt|boshqaruv nuqtasi|контрольная точка|Drag a control point to change the curve.
+spline|splaɪn|splayn|сплайн|A spline passes smoothly through several points.
+NURBS|nɜːbz|NURBS (ratsional B-splaynlar)|NURBS (рациональные B-сплайны)|Car bodies are modelled with NURBS surfaces.
+line drawing algorithm|laɪn ˈdrɔːɪŋ ˈælɡərɪðəm|chiziq chizish algoritmi|алгоритм рисования линии|Bresenham's line drawing algorithm uses only integers.
+flood fill|flʌd fɪl|to'ldirish (bo'yash)|заливка|The flood fill tool paints a closed area.
+scan line|skæn laɪn|skanerlash chizig'i|строка развёртки|The polygon is filled scan line by scan line.
+primitive|ˈprɪmətɪv|primitiv (oddiy shakl)|примитив|Points, lines and triangles are basic primitives.
+wireframe|ˈwaɪəfreɪm|sim karkas|каркасная модель|The wireframe view shows only the edges.
+modelling|ˈmɒdəlɪŋ|modellashtirish|моделирование|3D modelling takes a lot of practice.
+scene graph|siːn ɡrɑːf|sahna grafi|граф сцены|A scene graph organises objects in a hierarchy.
+bounding box|ˈbaʊndɪŋ bɒks|chegaralovchi quti|ограничивающий прямоугольник|The bounding box speeds up collision tests.
+level of detail|ˈlevl əv ˈdiːteɪl|tafsilot darajasi|уровень детализации|Level of detail reduces polygons for far objects.
+culling|ˈkʌlɪŋ|ko'rinmas qismlarni tashlab yuborish|отсечение невидимых граней|Back-face culling skips hidden triangles.
+animation|ˌænɪˈmeɪʃən|animatsiya|анимация|The animation runs at 24 frames per second.
+keyframe|ˈkiːfreɪm|asosiy kadr|ключевой кадр|Set a keyframe at the start and at the end.
+tweening|ˈtwiːnɪŋ|oraliq kadrlarni hosil qilish|построение промежуточных кадров|Tweening creates the frames between two keyframes.
+skeleton|ˈskelɪtn|skelet (suyak tizimi)|скелет|The character is animated with a skeleton.
+morphing|ˈmɔːfɪŋ|morfing (shaklni o'zgartirish)|морфинг|Morphing turns one face into another.
+particle system|ˈpɑːtɪkl ˈsɪstəm|zarrachalar tizimi|система частиц|Fire and smoke are made with a particle system.
+fractal|ˈfræktl|fraktal|фрактал|The Mandelbrot set is a famous fractal.
+OpenGL|ˌəʊpən dʒiː ˈel|OpenGL (grafik kutubxona)|OpenGL (графическая библиотека)|We draw the cube using OpenGL.
+API|ˌeɪ piː ˈaɪ|dasturiy interfeys (API)|программный интерфейс (API)|Vulkan is a modern graphics API.
+draw call|drɔː kɔːl|chizish chaqiruvi|вызов отрисовки|Too many draw calls slow down the game.
+vertex buffer|ˈvɜːteks ˈbʌfə|uchlar buferi|буфер вершин|Vertex data is stored in a vertex buffer.
+fragment|ˈfræɡmənt|fragment (piksel nomzodi)|фрагмент|Each fragment may become a pixel.
+mipmap|ˈmɪpmæp|mipmap (kichraytirilgan teksturalar)|мип-карта|Mipmaps make distant textures look smooth.
+bump mapping|bʌmp ˈmæpɪŋ|g'adir-budirlikni imitatsiya qilish|рельефное текстурирование|Bump mapping adds small surface details.
+normal map|ˈnɔːml mæp|normallar xaritasi|карта нормалей|A normal map stores surface directions in colours.
+global illumination|ˈɡləʊbl ɪˌluːmɪˈneɪʃən|global yoritish|глобальное освещение|Global illumination simulates light bouncing between surfaces.
+radiosity|ˌreɪdiˈɒsəti|radiositi usuli|метод излучательности|Radiosity is used for soft indoor lighting.
+virtual reality|ˈvɜːtʃuəl riˈæləti|virtual reallik|виртуальная реальность|Virtual reality needs a very high frame rate.
+augmented reality|ɔːɡˈmentɪd riˈæləti|kengaytirilgan reallik|дополненная реальность|Augmented reality adds digital objects to the real world.
+computer vision|kəmˈpjuːtə ˈvɪʒən|kompyuter ko'rishi|компьютерное зрение|Computer vision helps cars recognise road signs.
+image processing|ˈɪmɪdʒ ˈprəʊsesɪŋ|tasvirga ishlov berish|обработка изображений|Image processing can remove noise from photos.
+histogram|ˈhɪstəɡræm|gistogramma|гистограмма|The histogram shows the distribution of brightness.
+convolution|ˌkɒnvəˈluːʃən|svertka (konvolyutsiya)|свёртка|Blurring is done by convolution with a kernel.
+edge detection|edʒ dɪˈtekʃən|chegaralarni aniqlash|выделение границ|The Sobel operator is used for edge detection.

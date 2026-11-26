@@ -1,0 +1,300 @@
+time|taɪm|vaqt|время|What time is it now?
+year|jɪə|yil|год|She moved to Tashkent last year.
+people|ˈpiːpl|odamlar|люди|Many people came to the meeting.
+way|weɪ|yo'l, usul|путь, способ|This is the best way to learn.
+day|deɪ|kun|день|I work eight hours a day.
+man|mæn|erkak, kishi|мужчина|The man at the door is my teacher.
+woman|ˈwʊmən|ayol|женщина|That woman is a famous doctor.
+child|tʃaɪld|bola|ребёнок|Every child needs love and care.
+world|wɜːld|dunyo|мир|English is spoken all over the world.
+life|laɪf|hayot|жизнь|Books changed my life.
+hand|hænd|qo'l|рука|Raise your hand if you know the answer.
+part|pɑːt|qism|часть|This is the most important part.
+place|pleɪs|joy|место|Samarkand is a beautiful place.
+case|keɪs|holat|случай|In this case, we need more time.
+week|wiːk|hafta|неделя|We have English twice a week.
+company|ˈkʌmpəni|kompaniya|компания|He works for a big company.
+system|ˈsɪstəm|tizim|система|The new system is easy to use.
+program|ˈprəʊɡræm|dastur|программа|I wrote a small program in Python.
+question|ˈkwestʃən|savol|вопрос|Can I ask you a question?
+work|wɜːk|ish|работа|I go to work by bus.
+government|ˈɡʌvənmənt|hukumat|правительство|The government built a new school.
+number|ˈnʌmbə|son, raqam|число, номер|Write your phone number here.
+night|naɪt|tun, kecha|ночь|I couldn't sleep last night.
+point|pɔɪnt|nuqta, fikr|точка, мысль|That is a very good point.
+home|həʊm|uy|дом|I usually get home at six.
+water|ˈwɔːtə|suv|вода|Please give me a glass of water.
+room|ruːm|xona|комната|The meeting is in room 305.
+mother|ˈmʌðə|ona|мать|My mother is a teacher.
+area|ˈeəriə|hudud, soha|область, район|This area is very quiet.
+money|ˈmʌni|pul|деньги|I don't have much money with me.
+story|ˈstɔːri|hikoya|история, рассказ|Tell me a story about your childhood.
+fact|fækt|fakt, dalil|факт|It is a fact that the Earth is round.
+month|mʌnθ|oy|месяц|The course lasts one month.
+lot|lɒt|ko'p|много|We have a lot of work today.
+right|raɪt|to'g'ri; o'ng; huquq|правильный; правый; право|You are right about that.
+study|ˈstʌdi|o'qish, tadqiqot|учёба, исследование|This study shows interesting results.
+book|bʊk|kitob|книга|I am reading a good book.
+eye|aɪ|ko'z|глаз|She has blue eyes.
+job|dʒɒb|ish, vazifa|работа, должность|He found a new job in March.
+word|wɜːd|so'z|слово|Learn ten new words every day.
+business|ˈbɪznəs|biznes, ish|бизнес, дело|She started her own business.
+issue|ˈɪʃuː|masala, muammo|вопрос, проблема|We discussed this issue yesterday.
+side|saɪd|tomon|сторона|Please write on one side of the paper.
+kind|kaɪnd|tur; mehribon|вид; добрый|What kind of music do you like?
+head|hed|bosh|голова|My head hurts.
+house|haʊs|uy|дом|They live in a big house.
+service|ˈsɜːvɪs|xizmat|услуга, служба|The service in this hotel is good.
+friend|frend|do'st|друг|He is my best friend.
+father|ˈfɑːðə|ota|отец|My father works at the university.
+power|ˈpaʊə|kuch, quvvat|сила, власть|Knowledge is power.
+hour|ˈaʊə|soat|час|The lesson lasts one hour.
+game|ɡeɪm|o'yin|игра|Football is a popular game.
+line|laɪn|chiziq, qator|линия, строка|Draw a straight line.
+end|end|oxir, tugash|конец|See you at the end of the week.
+member|ˈmembə|a'zo|член, участник|She is a member of our team.
+law|lɔː|qonun|закон|Everyone must obey the law.
+car|kɑː|mashina|машина, автомобиль|He bought a new car.
+city|ˈsɪti|shahar|город|Tashkent is the largest city in Uzbekistan.
+community|kəˈmjuːnəti|jamiyat, jamoa|сообщество|The local community helped a lot.
+name|neɪm|ism, nom|имя, название|What is your name?
+president|ˈprezɪdənt|prezident|президент|The president gave a speech.
+team|tiːm|jamoa|команда|Our team won the game.
+minute|ˈmɪnɪt|daqiqa|минута|Wait a minute, please.
+idea|aɪˈdɪə|g'oya, fikr|идея|That is a great idea!
+body|ˈbɒdi|tana|тело|Sport is good for the body.
+information|ˌɪnfəˈmeɪʃən|ma'lumot|информация|I need more information about the course.
+back|bæk|orqa; qaytib|спина; назад|I'll be back in five minutes.
+parent|ˈpeərənt|ota-ona (biri)|родитель|Parents want the best for their children.
+face|feɪs|yuz|лицо|She had a smile on her face.
+level|ˈlevl|daraja|уровень|What is your level of English?
+office|ˈɒfɪs|ofis, idora|офис, кабинет|My office is on the second floor.
+door|dɔː|eshik|дверь|Please close the door.
+health|helθ|sog'liq|здоровье|Sleep is important for your health.
+person|ˈpɜːsn|shaxs, odam|человек, личность|She is a very kind person.
+art|ɑːt|san'at|искусство|He studies modern art.
+war|wɔː|urush|война|Nobody wants war.
+history|ˈhɪstri|tarix|история|I love the history of Bukhara.
+party|ˈpɑːti|bayram, ziyofat; partiya|вечеринка; партия|We had a birthday party.
+result|rɪˈzʌlt|natija|результат|The results of the test are good.
+change|tʃeɪndʒ|o'zgarish; o'zgartirmoq|изменение; изменять|Climate change is a global problem.
+morning|ˈmɔːnɪŋ|ertalab|утро|I drink tea every morning.
+reason|ˈriːzn|sabab|причина|What is the reason for your decision?
+research|rɪˈsɜːtʃ|tadqiqot|исследование|He does research in computer science.
+girl|ɡɜːl|qiz|девочка, девушка|The girl is reading a book.
+moment|ˈməʊmənt|lahza, on|момент|Just a moment, please.
+air|eə|havo|воздух|The air in the mountains is fresh.
+teacher|ˈtiːtʃə|o'qituvchi|учитель, преподаватель|Our teacher explains everything clearly.
+force|fɔːs|kuch; majbur qilmoq|сила; заставлять|Nobody can force you to do it.
+education|ˌedʒuˈkeɪʃən|ta'lim|образование|Education is the key to success.
+food|fuːd|ovqat, oziq-ovqat|еда|Uzbek food is delicious.
+student|ˈstjuːdnt|talaba|студент|Every student must pass the exam.
+country|ˈkʌntri|mamlakat|страна|Uzbekistan is a beautiful country.
+problem|ˈprɒbləm|muammo|проблема|We can solve this problem together.
+school|skuːl|maktab|школа|My son goes to school by bus.
+family|ˈfæməli|oila|семья|I have a big family.
+group|ɡruːp|guruh|группа|There are 25 students in the group.
+state|steɪt|davlat; holat|государство; состояние|The state supports young scientists.
+market|ˈmɑːkɪt|bozor|рынок|We buy fruit at the market.
+price|praɪs|narx|цена|The price of bread went up.
+language|ˈlæŋɡwɪdʒ|til|язык|How many languages do you speak?
+answer|ˈɑːnsə|javob|ответ|I know the answer.
+plan|plæn|reja|план|What are your plans for the weekend?
+paper|ˈpeɪpə|qog'oz; maqola|бумага; статья|He published a paper in a journal.
+music|ˈmjuːzɪk|musiqa|музыка|I listen to music every day.
+road|rəʊd|yo'l|дорога|The road to the village is long.
+example|ɪɡˈzɑːmpl|misol|пример|Can you give me an example?
+experience|ɪkˈspɪəriəns|tajriba|опыт|She has ten years of teaching experience.
+be|biː|bo'lmoq|быть|I want to be a good teacher.
+have|hæv|ega bo'lmoq|иметь|I have two brothers.
+do|duː|qilmoq|делать|What do you do on Sundays?
+say|seɪ|aytmoq|сказать|What did she say?
+go|ɡəʊ|bormoq|идти, ехать|Let's go to the park.
+get|ɡet|olmoq; bo'lib qolmoq|получать; становиться|I got your message.
+make|meɪk|yasamoq, qilmoq|делать, создавать|She makes a cake every Sunday.
+know|nəʊ|bilmoq|знать|Do you know his address?
+think|θɪŋk|o'ylamoq|думать|I think you are right.
+take|teɪk|olmoq|брать|Take an umbrella, it's raining.
+see|siː|ko'rmoq|видеть|I can see the mountains from here.
+come|kʌm|kelmoq|приходить|Come to my office at ten.
+want|wɒnt|xohlamoq|хотеть|I want to learn English.
+look|lʊk|qaramoq|смотреть|Look at this picture.
+use|juːz|foydalanmoq|использовать|Can I use your pen?
+find|faɪnd|topmoq|находить|I can't find my keys.
+give|ɡɪv|bermoq|давать|Give me your hand.
+tell|tel|aytib bermoq|рассказывать, говорить|Tell me about your job.
+ask|ɑːsk|so'ramoq|спрашивать, просить|Ask the teacher for help.
+feel|fiːl|his qilmoq|чувствовать|I feel tired today.
+try|traɪ|harakat qilmoq|пытаться, пробовать|Try to answer this question.
+leave|liːv|tark etmoq, ketmoq|уходить, оставлять|The train leaves at nine.
+call|kɔːl|qo'ng'iroq qilmoq; chaqirmoq|звонить; звать|I will call you tomorrow.
+need|niːd|muhtoj bo'lmoq|нуждаться|I need your help.
+become|bɪˈkʌm|bo'lib qolmoq|становиться|He became a professor at 40.
+put|pʊt|qo'ymoq|класть, ставить|Put the book on the table.
+mean|miːn|anglatmoq|значить|What does this word mean?
+keep|kiːp|saqlamoq|хранить, держать|Keep the receipt.
+let|let|ruxsat bermoq|позволять|Let me help you.
+begin|bɪˈɡɪn|boshlamoq|начинать|The lesson begins at 8:30.
+seem|siːm|tuyulmoq|казаться|He seems happy.
+help|help|yordam bermoq|помогать|Can you help me with this task?
+talk|tɔːk|gaplashmoq|разговаривать|We talked for an hour.
+turn|tɜːn|burilmoq; navbat|поворачивать; очередь|Turn left at the bank.
+start|stɑːt|boshlamoq|начинать|Let's start the meeting.
+show|ʃəʊ|ko'rsatmoq|показывать|Show me your homework.
+hear|hɪə|eshitmoq|слышать|I can't hear you.
+play|pleɪ|o'ynamoq; chalmoq|играть|The children play in the yard.
+run|rʌn|yugurmoq|бегать|I run every morning.
+move|muːv|harakatlanmoq, ko'chmoq|двигаться, переезжать|We moved to a new flat.
+like|laɪk|yoqtirmoq|нравиться, любить|I like green tea.
+live|lɪv|yashamoq|жить|I live in Andijan.
+believe|bɪˈliːv|ishonmoq|верить|I believe in you.
+bring|brɪŋ|olib kelmoq|приносить|Bring your passport tomorrow.
+happen|ˈhæpən|sodir bo'lmoq|случаться|What happened yesterday?
+write|raɪt|yozmoq|писать|Write your name here.
+provide|prəˈvaɪd|ta'minlamoq|обеспечивать|The university provides free Wi-Fi.
+sit|sɪt|o'tirmoq|сидеть|Please sit down.
+stand|stænd|turmoq|стоять|Stand in line, please.
+lose|luːz|yo'qotmoq|терять|I lost my phone.
+pay|peɪ|to'lamoq|платить|Can I pay by card?
+meet|miːt|uchrashmoq|встречать|Nice to meet you.
+include|ɪnˈkluːd|o'z ichiga olmoq|включать|The price includes breakfast.
+continue|kənˈtɪnjuː|davom ettirmoq|продолжать|Please continue your story.
+set|set|o'rnatmoq|устанавливать|Set the alarm for six o'clock.
+learn|lɜːn|o'rganmoq|учить, изучать|I learn new words every day.
+lead|liːd|boshqarmoq, olib bormoq|вести, руководить|She leads the research team.
+understand|ˌʌndəˈstænd|tushunmoq|понимать|I understand your problem.
+watch|wɒtʃ|tomosha qilmoq|смотреть|We watched a film last night.
+follow|ˈfɒləʊ|ergashmoq|следовать|Follow me, please.
+stop|stɒp|to'xtatmoq|останавливать|Stop the car here.
+create|kriˈeɪt|yaratmoq|создавать|Artists create beautiful things.
+speak|spiːk|gapirmoq|говорить|Do you speak English?
+read|riːd|o'qimoq|читать|I read the news every morning.
+spend|spend|sarflamoq|тратить, проводить|I spend a lot of time on research.
+grow|ɡrəʊ|o'smoq|расти|Apples grow in our garden.
+open|ˈəʊpən|ochmoq; ochiq|открывать; открытый|Open the window, please.
+walk|wɔːk|yurmoq|ходить пешком|I walk to work.
+win|wɪn|yutmoq|побеждать|Our team will win.
+offer|ˈɒfə|taklif qilmoq|предлагать|They offered me a job.
+remember|rɪˈmembə|eslamoq|помнить|I remember my first teacher.
+love|lʌv|sevmoq; sevgi|любить; любовь|I love my family.
+consider|kənˈsɪdə|ko'rib chiqmoq|рассматривать|We will consider your application.
+appear|əˈpɪə|paydo bo'lmoq|появляться|A message appeared on the screen.
+buy|baɪ|sotib olmoq|покупать|I want to buy a new laptop.
+wait|weɪt|kutmoq|ждать|Wait for me here.
+serve|sɜːv|xizmat qilmoq|служить, подавать|Dinner is served at seven.
+die|daɪ|o'lmoq|умирать|Plants die without water.
+send|send|yubormoq|отправлять|Send me the file by email.
+expect|ɪkˈspekt|kutmoq (umid qilmoq)|ожидать|I expect good results.
+build|bɪld|qurmoq|строить|They are building a new hospital.
+stay|steɪ|qolmoq|оставаться|Stay at home if you are ill.
+fall|fɔːl|yiqilmoq|падать|Be careful, don't fall.
+cut|kʌt|kesmoq|резать|Cut the bread, please.
+reach|riːtʃ|yetib bormoq|достигать|We reached the city at noon.
+remain|rɪˈmeɪn|qolmoq|оставаться|Two questions remain unanswered.
+suggest|səˈdʒest|taklif qilmoq|предлагать|I suggest we start now.
+raise|reɪz|ko'tarmoq|поднимать|Raise your hand.
+pass|pɑːs|o'tmoq; topshirmoq|проходить; сдавать|I passed the exam.
+sell|sel|sotmoq|продавать|They sell fresh bread.
+require|rɪˈkwaɪə|talab qilmoq|требовать|This job requires experience.
+report|rɪˈpɔːt|hisobot; xabar bermoq|отчёт; сообщать|I must finish my report today.
+decide|dɪˈsaɪd|qaror qilmoq|решать|We decided to stay.
+pull|pʊl|tortmoq|тянуть|Pull the door to open it.
+good|ɡʊd|yaxshi|хороший|It's a good idea.
+new|njuː|yangi|новый|I bought a new phone.
+first|fɜːst|birinchi|первый|This is my first visit to London.
+last|lɑːst|oxirgi; o'tgan|последний; прошлый|I saw him last week.
+long|lɒŋ|uzun|длинный|It was a long day.
+great|ɡreɪt|ajoyib, buyuk|великий, отличный|You did a great job.
+little|ˈlɪtl|kichik; oz|маленький; мало|I have a little time.
+own|əʊn|o'z (shaxsiy)|собственный|I have my own room.
+other|ˈʌðə|boshqa|другой|Do you have any other questions?
+old|əʊld|eski; keksa|старый|This is an old building.
+big|bɪɡ|katta|большой|They live in a big city.
+high|haɪ|baland|высокий|The mountain is very high.
+different|ˈdɪfrənt|turli, boshqacha|разный, другой|We have different opinions.
+small|smɔːl|kichik|маленький|It's a small village.
+large|lɑːdʒ|katta|большой, крупный|A large number of people came.
+next|nekst|keyingi|следующий|See you next week.
+early|ˈɜːli|erta|ранний; рано|I get up early.
+young|jʌŋ|yosh|молодой|She is young but very wise.
+important|ɪmˈpɔːtnt|muhim|важный|This is an important meeting.
+few|fjuː|bir nechta, oz|несколько, мало|I have a few questions.
+public|ˈpʌblɪk|ommaviy|общественный|This is a public library.
+bad|bæd|yomon|плохой|The weather is bad today.
+same|seɪm|xuddi shu|тот же самый|We are the same age.
+able|ˈeɪbl|qodir|способный|Will you be able to come?
+late|leɪt|kech|поздний; поздно|Sorry, I'm late.
+hard|hɑːd|qiyin; qattiq|трудный; твёрдый|The exam was hard.
+easy|ˈiːzi|oson|лёгкий|This exercise is easy.
+free|friː|bepul; bo'sh|бесплатный; свободный|Are you free tomorrow?
+true|truː|to'g'ri, haqiqiy|верный, правдивый|Is it true?
+whole|həʊl|butun|целый|I read the whole book.
+real|rɪəl|haqiqiy|настоящий|This is a real problem.
+best|best|eng yaxshi|лучший|She is my best student.
+better|ˈbetə|yaxshiroq|лучше|I feel better today.
+sure|ʃʊə|ishonchli, aniq|уверенный|Are you sure?
+clear|klɪə|aniq, ravshan|ясный, понятный|Is everything clear?
+happy|ˈhæpi|baxtli|счастливый|I am happy to see you.
+full|fʊl|to'la|полный|The bus is full.
+short|ʃɔːt|qisqa|короткий|Write a short summary.
+simple|ˈsɪmpl|oddiy|простой|The rule is very simple.
+strong|strɒŋ|kuchli|сильный|He is a strong man.
+possible|ˈpɒsəbl|mumkin|возможный|Is it possible to change the date?
+difficult|ˈdɪfɪkəlt|qiyin|трудный|English grammar is not difficult.
+beautiful|ˈbjuːtɪfl|chiroyli|красивый|What a beautiful view!
+cheap|tʃiːp|arzon|дешёвый|This hotel is cheap.
+expensive|ɪkˈspensɪv|qimmat|дорогой|The phone is too expensive.
+ready|ˈredi|tayyor|готовый|Dinner is ready.
+busy|ˈbɪzi|band|занятый|I am busy right now.
+always|ˈɔːlweɪz|doim|всегда|I always drink coffee in the morning.
+never|ˈnevə|hech qachon|никогда|I never smoke.
+often|ˈɒfn|tez-tez|часто|We often go to the cinema.
+sometimes|ˈsʌmtaɪmz|ba'zan|иногда|Sometimes I work at home.
+usually|ˈjuːʒuəli|odatda|обычно|I usually go to bed at eleven.
+already|ɔːlˈredi|allaqachon|уже|I have already finished.
+still|stɪl|hali ham|всё ещё|He is still at work.
+again|əˈɡen|yana|снова|Please say it again.
+together|təˈɡeðə|birga|вместе|Let's work together.
+today|təˈdeɪ|bugun|сегодня|Today is Monday.
+tomorrow|təˈmɒrəʊ|ertaga|завтра|See you tomorrow.
+yesterday|ˈjestədeɪ|kecha|вчера|I called him yesterday.
+now|naʊ|hozir|сейчас|I am busy now.
+here|hɪə|bu yerda|здесь|Come here, please.
+there|ðeə|u yerda|там|Put it there.
+very|ˈveri|juda|очень|Thank you very much.
+also|ˈɔːlsəʊ|ham, shuningdek|также|I also speak Russian.
+only|ˈəʊnli|faqat|только|I have only one question.
+well|wel|yaxshi; xo'sh|хорошо; ну|She speaks English well.
+because|bɪˈkɒz|chunki|потому что|I stayed home because I was ill.
+but|bʌt|lekin|но|I like tea, but I don't like coffee.
+if|ɪf|agar|если|If it rains, we will stay home.
+when|wen|qachon; -ganda|когда|Call me when you arrive.
+before|bɪˈfɔː|oldin|до, перед|Wash your hands before dinner.
+after|ˈɑːftə|keyin|после|We went for a walk after lunch.
+between|bɪˈtwiːn|orasida|между|The bank is between the cafe and the school.
+without|wɪˈðaʊt|-siz, holda emas|без|I drink tea without sugar.
+about|əˈbaʊt|haqida; taxminan|о; около|Tell me about your city.
+every|ˈevri|har bir|каждый|I study English every day.
+many|ˈmeni|ko'p (sanaladigan)|много|Many students live in the dormitory.
+much|mʌtʃ|ko'p (sanalmaydigan)|много|How much does it cost?
+enough|ɪˈnʌf|yetarli|достаточно|We have enough time.
+thing|θɪŋ|narsa|вещь|Put your things in the bag.
+weather|ˈweðə|ob-havo|погода|The weather is nice today.
+bread|bred|non|хлеб|Uzbek bread is very tasty.
+tea|tiː|choy|чай|Would you like some tea?
+street|striːt|ko'cha|улица|I live on Navoi street.
+shop|ʃɒp|do'kon|магазин|The shop opens at nine.
+hospital|ˈhɒspɪtl|kasalxona|больница|She works in a hospital.
+doctor|ˈdɒktə|shifokor|врач|You should see a doctor.
+university|ˌjuːnɪˈvɜːsəti|universitet|университет|I teach at the university.
+computer|kəmˈpjuːtə|kompyuter|компьютер|My computer is very fast.
+phone|fəʊn|telefon|телефон|My phone is on the table.
+letter|ˈletə|xat; harf|письмо; буква|I received a letter from my friend.
+picture|ˈpɪktʃə|rasm|картина, фотография|Look at this picture.
+table|ˈteɪbl|stol; jadval|стол; таблица|The data is shown in the table.
+window|ˈwɪndəʊ|deraza|окно|Open the window, it's hot.
+holiday|ˈhɒlədeɪ|bayram; ta'til|праздник; отпуск|Navruz is my favourite holiday.
+journey|ˈdʒɜːni|sayohat|поездка, путешествие|The journey took six hours.
+weekend|ˌwiːkˈend|dam olish kunlari|выходные|What did you do at the weekend?
+birthday|ˈbɜːθdeɪ|tug'ilgan kun|день рождения|Happy birthday!
+sun|sʌn|quyosh|солнце|The sun is shining.
