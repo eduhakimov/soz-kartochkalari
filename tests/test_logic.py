@@ -175,3 +175,35 @@ def test_tts_language_detection():
     assert Speaker.is_english("809;409")
     assert not Speaker.is_english("419")
     assert not Speaker.is_english("")
+
+
+def test_ui_study_modes():
+    from PySide6.QtWidgets import QApplication
+    QApplication.instance() or QApplication([])
+    from uzkit import app as appmod
+    from uzkit.settings import Settings
+    appmod.META = appmod.load_meta()
+    appmod.SETTINGS = Settings(appmod.META["slug"] + "_test")
+    appmod.SETTINGS.set("auto_speak", False)
+    from soz_kartochkalari import window
+    w = window.MainWindow()
+    s = w.study
+    s.load_queue()
+    assert s.queue
+    s.reveal()
+    s.grade(3)
+    assert w.db.total_reviews() >= 1
+    for i in range(1, 4):
+        s.mode_grp.button(i).click()
+        if i == 1:
+            s.answer.setText(s.card["word"])
+            s.check()
+            assert s.answered == "correct"
+            s.next()
+        if i == 2:
+            s.choose(0)
+            assert s.answered in ("correct", "wrong")
+    for i in range(5):
+        w.set_page(i)
+    window.CardDialog(w, w.db.cards()[0]).close()
+    w.close()

@@ -1,5 +1,6 @@
 """Windows SAPI orqali offline talaffuz (pywin32). SAPI bo'lmasa — jim ishlaydi."""
 import logging
+import sys
 
 _log = logging.getLogger("tts")
 
@@ -73,7 +74,7 @@ class Speaker:
                 pass
 
     def speak(self, text: str):
-        if not self._voice or not text:
+        if not self._voice or not text or "pytest" in sys.modules or "--screenshot" in sys.argv:
             return
         try:
             self._voice.Speak(text, SVSF_ASYNC | SVSF_PURGE)
