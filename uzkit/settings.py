@@ -17,10 +17,9 @@ class Settings:
     def load(self) -> None:
         try:
             if self.path.exists():
-                data = json.loads(self.path.read_text(encoding="utf-8"))
-                if not isinstance(data, dict):          # "null", "[]" va h.k. ham buzilgan fayl
-                    raise ValueError("settings root must be a JSON object")
-                self._data = data
+                self._data = json.loads(self.path.read_text(encoding="utf-8"))
+                if not isinstance(self._data, dict):
+                    raise ValueError("settings root is not an object")
         except Exception:
             # Buzilgan faylni zaxiraga olib, toza boshlaymiz
             try:
@@ -32,9 +31,17 @@ class Settings:
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         fd, tmp = tempfile.mkstemp(dir=str(self.path.parent), suffix=".tmp")
-        with os.fdopen(fd, "w", encoding="utf-8") as f:
-            json.dump(self._data, f, ensure_ascii=False, indent=2)
-        os.replace(tmp, self.path)
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                json.dump(self._data, f, ensure_ascii=False, indent=2)
+            os.replace(tmp, self.path)
+        except Exception:
+            # Yozib bo'lmadi: vaqtinchalik fayl qolib ketmasin
+            try:
+                os.remove(tmp)
+            except OSError:
+                pass
+            raise
 
     def get(self, key: str, default: Any = None) -> Any:
         return self._data.get(key, default)
