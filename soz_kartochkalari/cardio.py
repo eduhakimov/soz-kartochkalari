@@ -38,7 +38,16 @@ def load_builtin(folder: Path, key: str) -> List[dict]:
 
 # --------------------------------------------------------------------------- o'qish
 def _decode(data: bytes) -> str:
-    for enc in ("utf-8-sig", "utf-16", "cp1251"):
+    # UTF-16 faqat BOM yoki nol baytlar bo'lsa: aks holda juft uzunlikdagi cp1251 fayl ham
+    # "muvaffaqiyatli" UTF-16 deb o'qilib, xitoycha belgilarga aylanib qoladi.
+    if data[:2] in (b"\xff\xfe", b"\xfe\xff"):
+        return data.decode("utf-16")
+    if len(data) >= 4 and data[1::2].count(0) > len(data) // 4:
+        try:
+            return data.decode("utf-16-le")
+        except UnicodeDecodeError:
+            pass
+    for enc in ("utf-8-sig", "cp1251"):
         try:
             return data.decode(enc)
         except UnicodeDecodeError:

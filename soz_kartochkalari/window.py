@@ -1019,12 +1019,13 @@ class SettingsPage(QWidget):
             f2 = QFormLayout()
             self.voice = QComboBox()
             self.voice.addItems(win.speaker.voices())
-            cur = s.get("voice") or win.speaker.default_voice()
+            cur = s.get("voice") if isinstance(s.get("voice"), str) else ""
+            cur = cur or win.speaker.default_voice()
             self.voice.setCurrentIndex(max(0, self.voice.findText(cur)))
             self.voice.currentTextChanged.connect(self._voice)
             self.rate = QSlider(Qt.Horizontal)
             self.rate.setRange(-5, 5)
-            self.rate.setValue(int(s.get("rate", -1)))
+            self.rate.setValue(win._int_setting("rate", -1, -5, 5))
             self.rate.valueChanged.connect(self._rate)
             f2.addRow(tr("voice"), self.voice)
             f2.addRow(tr("rate"), self.rate)
@@ -1046,7 +1047,7 @@ class SettingsPage(QWidget):
             h.setWordWrap(True)
             v.add(h)
         self.auto = QCheckBox(tr("auto_speak"))
-        self.auto.setChecked(s.get("auto_speak", True))
+        self.auto.setChecked(bool(s.get("auto_speak", True)))
         self.auto.toggled.connect(lambda val: self._set("auto_speak", val))
         v.add(self.auto)
         lay.addWidget(v)
@@ -1144,9 +1145,9 @@ class MainWindow(BaseMainWindow):
         self.db = DB(self.data_dir / "kartalar.db")
         self.speaker = Speaker()
         if self.speaker.available:
-            if self.settings.get("voice"):
+            if isinstance(self.settings.get("voice"), str):
                 self.speaker.select(self.settings.get("voice"))
-            self.speaker.set_rate(int(self.settings.get("rate", -1)))
+            self.speaker.set_rate(self._int_setting("rate", -1, -5, 5))
         first_run = not self.db.decks() and not self.db.get_meta("initialized")
         root = QWidget()
         h = QHBoxLayout(root)
@@ -1229,11 +1230,15 @@ class MainWindow(BaseMainWindow):
         if i == 3:
             self.stats.refresh()
 
+    def _int_setting(self, key, default, lo, hi):
+        v = self.settings.get(key, default)
+        return v if isinstance(v, int) and not isinstance(v, bool) and lo <= v <= hi else default
+
     def goal(self):
-        return int(self.settings.get("goal", 20))
+        return self._int_setting("goal", 20, 5, 500)
 
     def new_limit(self):
-        return int(self.settings.get("new_per_day", 10))
+        return self._int_setting("new_per_day", 10, 0, 200)
 
     def data_changed(self):
         self.home.refresh()

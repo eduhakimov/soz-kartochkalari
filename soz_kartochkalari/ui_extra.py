@@ -449,13 +449,19 @@ def write_xlsx(path: str, sheet_title: str, headers: Sequence[str], rows: Sequen
     from openpyxl import Workbook
     from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
     from openpyxl.utils import get_column_letter
+    import re
+    from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
     wb = Workbook()
     ws = wb.active
-    ws.title = (sheet_title or "Sheet")[:31]
+    # Excel varaq nomida : / ? * [ ] \ bo'lishi mumkin emas ("IELTS: 150" kabi to'plam nomlari)
+    ws.title = re.sub(r"[\[\]:*?/\\]", " ", sheet_title or "").strip()[:31] or "Sheet"
+
+    def clean(v):
+        return ILLEGAL_CHARACTERS_RE.sub("", v) if isinstance(v, str) else v
     acc = (accent_hex or accent()).lstrip("#").upper()
     r0 = 1
     if title:
-        ws.cell(row=1, column=1, value=title).font = Font(bold=True, size=14)
+        ws.cell(row=1, column=1, value=clean(title)).font = Font(bold=True, size=14)
         r0 = 3
     thin = Side(style="thin", color="D9DDE5")
     for j, h in enumerate(headers, 1):
@@ -466,7 +472,7 @@ def write_xlsx(path: str, sheet_title: str, headers: Sequence[str], rows: Sequen
         cell.border = Border(top=thin, bottom=thin, left=thin, right=thin)
     for i, row in enumerate(rows, 1):
         for j, v in enumerate(row, 1):
-            cell = ws.cell(row=r0 + i, column=j, value=v)
+            cell = ws.cell(row=r0 + i, column=j, value=clean(v))
             cell.alignment = Alignment(vertical="top", wrap_text=True)
             cell.border = Border(top=thin, bottom=thin, left=thin, right=thin)
             if fills and i - 1 < len(fills) and fills[i - 1]:

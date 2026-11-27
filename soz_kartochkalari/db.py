@@ -53,6 +53,22 @@ class DB:
     def __init__(self, path):
         self.path = Path(path)
         self.path.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            self._open()
+        except sqlite3.DatabaseError:
+            # Buzilgan baza fayli: zaxiraga olib, yangisini ochamiz (dastur ishga tushmay qolmasin)
+            try:
+                self.con.close()
+            except Exception:
+                pass
+            stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            self.broken_backup = self.path.with_name(f"{self.path.stem}.broken_{stamp}{self.path.suffix}")
+            self.path.replace(self.broken_backup)
+            self._open()
+
+    broken_backup = None
+
+    def _open(self):
         self.con = sqlite3.connect(str(self.path))
         self.con.row_factory = sqlite3.Row
         self.con.execute("PRAGMA foreign_keys = ON")
