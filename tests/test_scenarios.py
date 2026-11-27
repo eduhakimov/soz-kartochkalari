@@ -173,3 +173,14 @@ def test_ui_export_xlsx_with_colon_in_deck_name(win, tmp_path, monkeypatch):
     win.export_deck(did, "xlsx")
     assert not errs and out.exists()
     assert ["apple", "", "olma", "", ""] in cardio.read_table(str(out))
+
+
+@pytest.mark.parametrize("raw", ["[1, 2]", "null", "5", "{broken"])
+def test_settings_file_with_wrong_root_is_reset(tmp_path, monkeypatch, raw):
+    monkeypatch.setenv("APPDATA", str(tmp_path))
+    from uzkit.settings import Settings
+    f = tmp_path / "BahtiyorSoft" / "x_root" / "settings.json"
+    f.parent.mkdir(parents=True)
+    f.write_text(raw, encoding="utf-8")
+    s = Settings("x_root")
+    assert s.get("k", 1) == 1 and f.with_suffix(".broken.json").exists()

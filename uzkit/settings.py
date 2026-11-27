@@ -17,7 +17,10 @@ class Settings:
     def load(self) -> None:
         try:
             if self.path.exists():
-                self._data = json.loads(self.path.read_text(encoding="utf-8"))
+                data = json.loads(self.path.read_text(encoding="utf-8"))
+                if not isinstance(data, dict):          # "null", "[]" va h.k. ham buzilgan fayl
+                    raise ValueError("settings root must be a JSON object")
+                self._data = data
         except Exception:
             # Buzilgan faylni zaxiraga olib, toza boshlaymiz
             try:
